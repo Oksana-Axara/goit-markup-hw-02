@@ -1,9 +1,45 @@
 .hero {
   background: #2f303a;
+  font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 .footer {
   background: #2f303a;
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+color: #FFFFFF;
 }
 .crew {
   background: #f5f4fa;
+}
+body {
+  font-family: roboto; sans-serif;
+  font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.site-nav {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+h1,h2,h3 {
+    color: #212121;
 }
