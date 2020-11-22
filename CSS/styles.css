@@ -1,11 +1,16 @@
-/* цвет основного текста  #757575; */
-/* вторичный цвет #212121; */
-/* белый #FFFFFF; */
-/*акцент #2196F3; */
+:root {
+  --prim-text-color: #757575;
+--sec-text-color: #212121; 
+--accent-color:  #2196F3;
+--prime-white-color: #FFFFFF;
+--shadow-box-color:rgba(255, 255, 255, 0.6);
+--crew-bg-color: #F5F4FA;
+--footer-bg-color:#2F303A;
+}
+
 .hero {
   background: #2f303a;
-  
-}
+  }
 .hero .title {
   font-weight: 900;
 font-size: 44px;
@@ -17,10 +22,14 @@ color: #FFFFFF;
 }
 footer {
   background: #2f303a;
+  font-style: normal;
  font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footers .logo-studio {
 color: #FFFFFF;
 }
 .crew {
@@ -70,6 +79,7 @@ text-decoration: none;
 color: black;
 }
 .site-nav .link{
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -79,12 +89,13 @@ list-style: none;
 text-decoration: none;
 }
 
-.site-nav .nav:hover,
-.site-nav .nav:focus {
+.site-nav .nav .link:hover,
+.site-nav .nav .link:focus {
   font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
+color: #2196F3;
 }
 .site-nav .link .current-page {
 color: #2196F3;
@@ -130,8 +141,6 @@ font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.04em;
 color:  #757575;
-
-
 }
 .crew .employees{
   font-weight: 500;
@@ -148,6 +157,7 @@ text-align: center;
 letter-spacing: 0.04em;
 }
 .footer-address ,p {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -159,8 +169,7 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-
+text-decoration: none:
 
 }
 .sort-button .sort {
@@ -191,11 +200,12 @@ border-radius: 4px;
 .header-address .link:focus {
    color: #2196F3;
 }
-
 .header-address .link{
+  font-style: normal;
   font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 color: #757575;
 text-decoration: none;
+
