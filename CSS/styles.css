@@ -5,11 +5,11 @@
 --prime-white-color: #FFFFFF;
 --shadow-box-color:rgba(255, 255, 255, 0.6);
 --crew-bg-color: #F5F4FA;
---footer-bg-color:#2F303A;
+--footer-hero-bg-color:#2F303A;
 }
 
 .hero {
-  background: #2f303a;
+  background-color: var(--footer-hero-bg-color);
   }
 .hero .title {
   font-weight: 900;
@@ -18,26 +18,26 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--prime-white-color);
 }
 footer {
-  background: #2f303a;
+ background-color: var(--footer-hero-bg-color);
   font-style: normal;
  font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color:var(--prime-white-color);
 }
 .footers .logo-studio {
-color: #FFFFFF;
+color:var(--prime-white-color);
 }
 .crew {
-  background: #f5f4fa;
+  background-color:var(--crew-bg-color);
 }
 body {
   font-family: roboto; sans-serif;
-  color: #757575;
+  color:var(--prim-text-color);
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 h1,h2,h3 {
-    color: #212121;
+    color:var(--sec-text-color);
 } 
 .title {
   color: #FFFFFF;
@@ -56,27 +56,25 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.05em;
-
-color: #212121;
-
+color:var(--sec-text-color);
 }
 .logo-web {
-font-family: Raleway; sans-serif;
+font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.04em;
-color: #2196F3;
+color:var(--accent-color);
 text-decoration: none;
 }
 .logo-studio {
-font-family: Raleway; sans-serif;
+font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.04em;
 text-decoration: none;
-color: black;
+color:var(--sec-text-color);
 }
 .site-nav .link{
 font-style: normal;
@@ -84,7 +82,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--sec-text-color);
 list-style: none;
 text-decoration: none;
 }
@@ -95,10 +93,10 @@ text-decoration: none;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color:var(--accent-color);
 }
 .site-nav .link .current-page {
-color: #2196F3;
+color:var(--accent-color);
 }
 ul {
   list-style: none;
@@ -110,8 +108,8 @@ letter-spacing: 0.02em;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
-color: #FFFFFF;
-background: #2196F3;
+color:var(--prime-white-color);
+background-color:var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
@@ -133,14 +131,14 @@ font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--sec-text-color);
 }
 .project-type {
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.04em;
-color:  #757575;
+color:var(--prim-text-color);
 }
 .crew .employees{
   font-weight: 500;
@@ -168,12 +166,12 @@ letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color:var(--shadow-box-color);
 text-decoration: none:
 
 }
 .sort-button .sort {
-background: #F5F4FA;
+background-color:var(--crew-bg-color);
 border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
@@ -181,24 +179,24 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color:var(--sec-text-color);
 
 }
 .sort-button .sort:hover,
 .sort-button .sort:focus {
- background-color:  #2196F3;;
+ background-color:var(--accent-color);
  font-weight: 500;
 font-size: 16px;
 line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color:var(--prime-white-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
 .header-address .link:hover,
 .header-address .link:focus {
-   color: #2196F3;
+   color:var(--accent-color);
 }
 .header-address .link{
   font-style: normal;
@@ -206,6 +204,6 @@ border-radius: 4px;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-color: #757575;
+color:var(--prim-text-color);
 text-decoration: none;
 
